@@ -12,8 +12,7 @@ fetch('http://localhost:3000/comidas')
       desayuno: [],
       almuerzo: [],
       merienda: [],
-      cena: [],
-      comidaExtra: [] // Usamos comidaExtra para JSON
+      cena: []
     };
 
     comidas.forEach(comida => {

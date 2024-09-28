@@ -37,15 +37,6 @@
       "meal": "cena"
     },
     {
-      "id": "e4b0",
-      "descripcion": "Potato patty",
-      "calorias": "171.00",
-      "proteinas": "3.89",
-      "carbs": "13.50",
-      "grasas": "11.30",
-      "meal": "almuerzo"
-    },
-    {
       "id": "3a41",
       "descripcion": "Tomatoes, raw",
       "calorias": "20.00",
