@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen Diario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .comida-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+
+        #macrosChart {
+            max-width: 20%; /* Ensure it scales properly in responsive layouts */
+            height: auto;    /* Maintain aspect ratio */
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Resumen Diario</h1>
+
+<h2>Ingrese los macronutrientes que desea cumplir:</h2>
+<label for="proteinasMeta">Proteínas deseadas (g):</label>
+<input type="number" id="proteinasMeta" placeholder="Ingresa tus proteínas deseadas" />
+<label for="carbsMeta">Carbohidratos deseados (g):</label>
+<input type="number" id="carbsMeta" placeholder="Ingresa tus carbohidratos deseados" />
+<label for="grasasMeta">Grasas deseadas (g):</label>
+<input type="number" id="grasasMeta" placeholder="Ingresa tus grasas deseadas" />
+<div id="totalCaloriasMeta">Total Calorías: 0.00 kcal</div>
+
+<br></br>
+<br></br>
+<div>
+    <strong>Total Calorías:</strong> <span id="totalCalorias">0.00</span> kcal<br>
+    <strong>Total Proteínas:</strong> <span id="totalProteinas">0.00</span> g<br>
+    <strong>Total Carbohidratos:</strong> <span id="totalCarbohidratos">0.00</span> g<br>
+    <strong>Total Grasas:</strong> <span id="totalGrasas">0.00</span> g<br>
+</div>
+
+<div id="resultadoCalorias"></div>
+<div id="resultadoMacros"></div>
+
+<div id="desayunoComidas"></div>
+<div id="almuerzoComidas"></div>
+<div id="meriendaComidas"></div>
+<div id="cenaComidas"></div>
+
+<button id="volverBtn">Volver al Index</button>
+
+<!-- Aquí debes incluir Chart.js y tu gráfico -->
+<canvas id="macrosChart" width="100" height="100"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./js/summary.js"></script>
+
+</body>
+</html>

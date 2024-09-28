@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Alimentos - Acumulador de Calorías</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input, button {
+      margin-top: 10px;
+      display: block;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+    .food-item {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Buscar Información de Alimentos</h1>
+
+  <label for="food">Nombre del Alimento:</label>
+  <input type="text" id="food" placeholder="Ejemplo: Manzana">
+  
+  <label for="cantidad">Cantidad (gramos):</label>
+  <input type="number" id="cantidad" placeholder="100" value="100">
+
+  <label for="mealSelect">¿A qué comida deseas agregar el alimento?</label>
+  <select id="mealSelect">
+    <option value="desayuno">Desayuno</option>
+    <option value="almuerzo">Almuerzo</option>
+    <option value="merienda">Merienda</option>
+    <option value="cena">Cena</option>
+  </select>
+
+  <button id="searchBtn">Buscar Información</button>
+
+  <!-- Aquí se mostrará la lista de alimentos encontrados -->
+  <div id="result"></div>
+
+  <!-- Botón para ir al resumen -->
+  <button id="verResumenBtn">Ver Resumen Diario</button>
+
+  <script src="./js/index.js"></script>
+
+</body>
+</html>

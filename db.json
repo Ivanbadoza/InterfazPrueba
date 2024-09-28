@@ -1,0 +1,85 @@
+{
+  "comidas": [
+    {
+      "id": "6267",
+      "descripcion": "EGG",
+      "calorias": "159.00",
+      "proteinas": "11.40",
+      "carbs": "2.27",
+      "grasas": "11.40",
+      "meal": "desayuno"
+    },
+    {
+      "id": "1da2",
+      "descripcion": "APPLE",
+      "calorias": "46.00",
+      "proteinas": "0.00",
+      "carbs": "11.70",
+      "grasas": "0.00",
+      "meal": "comida extra"
+    },
+    {
+      "id": "00b6",
+      "descripcion": "Carrots, raw",
+      "calorias": "41.00",
+      "proteinas": "0.93",
+      "carbs": "9.58",
+      "grasas": "0.24",
+      "meal": "comida extra"
+    },
+    {
+      "id": "aa3a",
+      "descripcion": "CHICKEN",
+      "calorias": "107.00",
+      "proteinas": "21.40",
+      "carbs": "0.00",
+      "grasas": "1.79",
+      "meal": "cena"
+    },
+    {
+      "id": "e4b0",
+      "descripcion": "Potato patty",
+      "calorias": "171.00",
+      "proteinas": "3.89",
+      "carbs": "13.50",
+      "grasas": "11.30",
+      "meal": "almuerzo"
+    },
+    {
+      "id": "3a41",
+      "descripcion": "Tomatoes, raw",
+      "calorias": "20.00",
+      "proteinas": "0.82",
+      "carbs": "4.04",
+      "grasas": "0.31",
+      "meal": "comida extra"
+    },
+    {
+      "id": "2204",
+      "descripcion": "Apple, candied",
+      "calorias": "134.00",
+      "proteinas": "1.34",
+      "carbs": "29.60",
+      "grasas": "2.15",
+      "meal": "comidaextra"
+    },
+    {
+      "id": "326f",
+      "descripcion": "APPLE",
+      "calorias": "46.00",
+      "proteinas": "0.00",
+      "carbs": "11.70",
+      "grasas": "0.00",
+      "meal": "merienda"
+    },
+    {
+      "id": "2ae2",
+      "descripcion": "Eggs, Grade A, Large, egg whole",
+      "calorias": "148.00",
+      "proteinas": "12.40",
+      "carbs": "0.96",
+      "grasas": "9.96",
+      "meal": "cena"
+    }
+  ]
+}
